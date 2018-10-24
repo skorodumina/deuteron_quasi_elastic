@@ -1,0 +1,143 @@
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/repos/!svn/ver/13555/users/gilfoyle/qeDsim/src/includes
+END
+Jmom_corr2_calc.h
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/repos/!svn/ver/13517/users/gilfoyle/qeDsim/src/includes/Jmom_corr2_calc.h
+END
+pde_includes.h
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/repos/!svn/ver/13517/users/gilfoyle/qeDsim/src/includes/pde_includes.h
+END
+Jpde_eff.h
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/repos/!svn/ver/13517/users/gilfoyle/qeDsim/src/includes/Jpde_eff.h
+END
+ec_nde_includes.h
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/repos/!svn/ver/13517/users/gilfoyle/qeDsim/src/includes/ec_nde_includes.h
+END
+Jnde_pars.h
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/repos/!svn/ver/13517/users/gilfoyle/qeDsim/src/includes/Jnde_pars.h
+END
+pde_defines.h
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/repos/!svn/ver/13517/users/gilfoyle/qeDsim/src/includes/pde_defines.h
+END
+Jmom_corr2_util.h
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/repos/!svn/ver/13517/users/gilfoyle/qeDsim/src/includes/Jmom_corr2_util.h
+END
+queeg.h
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/repos/!svn/ver/13555/users/gilfoyle/qeDsim/src/includes/queeg.h
+END
+e5defines.h
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/repos/!svn/ver/13517/users/gilfoyle/qeDsim/src/includes/e5defines.h
+END
+Jec_nde_eff.h
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/repos/!svn/ver/13517/users/gilfoyle/qeDsim/src/includes/Jec_nde_eff.h
+END
+Jec_geom.h
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/repos/!svn/ver/13517/users/gilfoyle/qeDsim/src/includes/Jec_geom.h
+END
+ec_nde_defines.h
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/repos/!svn/ver/13517/users/gilfoyle/qeDsim/src/includes/ec_nde_defines.h
+END
+qe_ana_includes.h
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/repos/!svn/ver/13517/users/gilfoyle/qeDsim/src/includes/qe_ana_includes.h
+END
+pde_ntuple_def.h
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/repos/!svn/ver/13517/users/gilfoyle/qeDsim/src/includes/pde_ntuple_def.h
+END
+Jqe_ana_calc.h
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/repos/!svn/ver/13555/users/gilfoyle/qeDsim/src/includes/Jqe_ana_calc.h
+END
+qe_ana_defines.h
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/repos/!svn/ver/13517/users/gilfoyle/qeDsim/src/includes/qe_ana_defines.h
+END
+Jpde_selector.h
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/repos/!svn/ver/13517/users/gilfoyle/qeDsim/src/includes/Jpde_selector.h
+END
+ntypes.h
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/repos/!svn/ver/13517/users/gilfoyle/qeDsim/src/includes/ntypes.h
+END
+nde_overloads.h
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/repos/!svn/ver/13517/users/gilfoyle/qeDsim/src/includes/nde_overloads.h
+END
+mom_corr2_includes.h
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/repos/!svn/ver/13517/users/gilfoyle/qeDsim/src/includes/mom_corr2_includes.h
+END
+Jsc_nde_eff.h
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/repos/!svn/ver/13517/users/gilfoyle/qeDsim/src/includes/Jsc_nde_eff.h
+END
+Jsc_geom.h
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/repos/!svn/ver/13517/users/gilfoyle/qeDsim/src/includes/Jsc_geom.h
+END
+kinematics.h
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/repos/!svn/ver/13517/users/gilfoyle/qeDsim/src/includes/kinematics.h
+END

@@ -1,0 +1,107 @@
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/repos/!svn/ver/13517/users/gilfoyle/qeDsim/src/CLAS6includes
+END
+clas_cern.h
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/repos/!svn/ver/13517/users/gilfoyle/qeDsim/src/CLAS6includes/clas_cern.h
+END
+make_TGEO.h
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/repos/!svn/ver/13517/users/gilfoyle/qeDsim/src/CLAS6includes/make_TGEO.h
+END
+makebanks.h
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/repos/!svn/ver/13517/users/gilfoyle/qeDsim/src/CLAS6includes/makebanks.h
+END
+bosfun.h
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/repos/!svn/ver/13517/users/gilfoyle/qeDsim/src/CLAS6includes/bosfun.h
+END
+trk.h
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/repos/!svn/ver/13517/users/gilfoyle/qeDsim/src/CLAS6includes/trk.h
+END
+printBOS.h
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/repos/!svn/ver/13517/users/gilfoyle/qeDsim/src/CLAS6includes/printBOS.h
+END
+utility.h
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/repos/!svn/ver/13517/users/gilfoyle/qeDsim/src/CLAS6includes/utility.h
+END
+particleType.h
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/repos/!svn/ver/13517/users/gilfoyle/qeDsim/src/CLAS6includes/particleType.h
+END
+map_manager.h
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/repos/!svn/ver/13517/users/gilfoyle/qeDsim/src/CLAS6includes/map_manager.h
+END
+bosddl.h
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/repos/!svn/ver/13517/users/gilfoyle/qeDsim/src/CLAS6includes/bosddl.h
+END
+trk_common.h
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/repos/!svn/ver/13517/users/gilfoyle/qeDsim/src/CLAS6includes/trk_common.h
+END
+bostypes.h
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/repos/!svn/ver/13517/users/gilfoyle/qeDsim/src/CLAS6includes/bostypes.h
+END
+call.h
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/repos/!svn/ver/13517/users/gilfoyle/qeDsim/src/CLAS6includes/call.h
+END
+pid.h
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/repos/!svn/ver/13517/users/gilfoyle/qeDsim/src/CLAS6includes/pid.h
+END
+trklink.h
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/repos/!svn/ver/13517/users/gilfoyle/qeDsim/src/CLAS6includes/trklink.h
+END
+clasmdl.h
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/repos/!svn/ver/13517/users/gilfoyle/qeDsim/src/CLAS6includes/clasmdl.h
+END
+trk_run_control.h
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/repos/!svn/ver/13517/users/gilfoyle/qeDsim/src/CLAS6includes/trk_run_control.h
+END

@@ -1,0 +1,55 @@
+# Makefile to build queeg, quasi-elastic ed scattering event generator
+#
+# only supports linux os
+#
+# original author - Jeff Lachniet (2006)
+# updated and options added - gpg (2014)
+
+# path to keep binaries and objects
+PTH		= $(TOP_DIR)/bin/
+OPTH		= $(TOP_DIR)/obj/
+
+#libraries
+ROOTGLIBS	:= $(shell root-config --glibs)
+ROOTLIBS	:= $(ROOTGLIBS) -lMinuit
+
+#includes
+ROOTINCS	:= $(shell root-config --incdir)
+INCLUDES	:= -I$(TOP_DIR)/src/includes -I$(TOP_DIR)/src/CLAS6includes -I$(ROOTINCS)
+
+#compiler and flags. -Wall turns on warnings. -g and -ggdb are for debugging. 
+CXX		= gcc
+CXXFLAGS	= -Wall -g -ggdb
+
+#linker and flags
+LD		= gcc
+LDFLAGS		= -Wall
+
+#objects and dependencies
+OBJS		= $(OPTH)/queeg.o  $(OPTH)/Jqe_ana_calc.o $(OPTH)/vector3.o
+
+#compile and link
+NAME		= queeg
+PROGRAM		= $(PTH)/$(NAME)
+
+all:		obj exe
+
+obj:
+	@echo "Compiling $(OPTH)/queeg.o..."
+	$(CXX) $(CXXFLAGS) $(INCLUDES) -c queeg.cpp -o $(OPTH)/queeg.o
+
+	@echo "Compiling $(OPTH)/Jqe_ana_calc.o..."
+	$(CXX) $(CXXFLAGS) $(INCLUDES) -c Jqe_ana_calc.cpp -o $(OPTH)/Jqe_ana_calc.o
+
+	@echo "Compiling $(OPTH)/vector3.o..."
+	$(CXX) $(CXXFLAGS) $(INCLUDES) -c vector3.c -o $(OPTH)/vector3.o
+
+exe:
+	@echo "Linking $(PROGRAM)..."
+	@rm -f $(PROGRAM)
+	-@mkdir -p $(PTH)
+
+	$(LD) $(LDFLAGS) -o $(PROGRAM) $(OBJS) $(ROOTLIBS)
+	@echo "$(NAME) done"
+	@echo "You should have an executable $(NAME) in directory $(PTH)"
+

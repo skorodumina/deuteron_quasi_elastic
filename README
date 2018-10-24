@@ -1,0 +1,20 @@
+This folder contains the programs used to examine the quasi-elastic cross section off the deuteron. 
+
+analysis_program - contains the program similar to the double-pion one, which contains the selection of the inclusive electrons.
+PBosted_model - contains the modeling of the QE and inclusive cross section by P. Bosted.
+QUEEG - contains the event generator for the QE scattering off the deuteron. 
+
+More details are inside the corresponding folder.
+
+------------------------------------------------------
+
+There was also an event generator of both QE and inclusive spectra off the deuteron by M. Osipenko. This EG is based on his F2 structure function off the deuteron. The produced spectrum is radiated. However, there was no access to the EG source code. The executables can be found at 
+
+/mss/home/skorodum/e1e/soft/Osipenko_gen_11Nov2014.tar.gz
+/mss/home/skorodum/e1e/soft/osip_2nd_gen_24Apr2015.tar.gz
+(there were two EG versions different in the high W inclusive part)
+
+The location of some files produced with this EG is specified in README in the "analysis_program" folder.
+
+
+There was also the cross section program by M. Osipenko (also without a source code): /mss/home/skorodum/e1e/soft/osipenko_cr_sect_prog_26Apr.tar.gz

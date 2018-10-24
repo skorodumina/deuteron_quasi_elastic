@@ -1,0 +1,7 @@
+This is P. Bosted model for the (quasi)-elastic and inclusive scattering off free proton, deuteron, and some other nuclei. The initial code is taken from https://userweb.jlab.org/~bosted/fits.html . See also more deteils at https://arxiv.org/pdf/0711.0159v4.pdf
+
+The code was initially on FORTRANT, however it is wrapped in C++. See Main.cc for calling the FORTRAN fuctions, which are called through the F1F209Wrapper.cc.
+
+Upon compiling the library libF1F209.so is created.
+
+Two more fortran subroutins were added to the inital set by me. See more details in the top of F1F209.f

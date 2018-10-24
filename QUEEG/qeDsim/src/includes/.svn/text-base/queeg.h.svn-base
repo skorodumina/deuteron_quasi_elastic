@@ -1,0 +1,34 @@
+#ifndef QUEEG_H_
+#define QUEEG_H_
+
+#include "qe_ana_defines.h"
+#include "qe_ana_includes.h"
+#include "Jqe_ana_calc.h"
+#include "Jec_geom.h"
+#include "Jec_nde_eff.h"
+#include "Jsc_geom.h"
+#include "Jsc_nde_eff.h"
+#include "Jpde_eff.h"
+#include "Jqe_ana_calc.h"
+#include <TRandom3.h>
+
+void PrintUsage(void);
+void event_write(HADRON_TYPE_t htype,vector3_t electron,
+		 vector3_t real,vector3_t expected, vector3_t vert, int nevents,
+		 float minimum_angle, float maximum_angle);
+void event_write_lund(HADRON_TYPE_t htype,vector3_t electron,
+		 vector3_t real,vector3_t expected, vector3_t vert, 
+		      int nevents, double energy, float minimum_angle, float maximum_angle);
+vector3_t spread_vertex(float vZ, float vR, float targetRadius);
+
+//global objs
+FILE *gsim_out;
+Jec_nde_eff *ec_eff;
+Jsc_nde_eff *sc_eff;
+Jpde_eff *pde_eff;
+Jec_geom *ec_geom;
+Jsc_geom *sc_geom;
+Jqe_ana_calc *calc_obj;
+TRandom3 *jrand;
+
+#endif

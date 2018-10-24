@@ -1,0 +1,17 @@
+1 // flag 1-data; 2-simulation
+2.039 // beam energy in GeV
+5 // number of input files
+/cache/mss/home/skorodum/e1e/data_2pi_conv_2July2018/out_conv_2pi_2July2018_1.root
+/cache/mss/home/skorodum/e1e/data_2pi_conv_2July2018/out_conv_2pi_2July2018_2.root
+/cache/mss/home/skorodum/e1e/data_2pi_conv_2July2018/out_conv_2pi_2July2018_3.root
+/cache/mss/home/skorodum/e1e/data_2pi_conv_2July2018/out_conv_2pi_2July2018_4.root
+/cache/mss/home/skorodum/e1e/data_2pi_conv_2July2018/out_conv_2pi_2July2018_5.root
+1 // number of input files with empty target
+/cache/mss/home/skorodum/e1e/data_2pi_conv_2July2018/out_conv_2pi_2July2018_105.root
+2// number of input files with smulation
+/cache/mss/home/skorodum/QUASI_EL_INCL/Osipenko_newgen_nofid16Feb2014/converted_Sept2018_cc_ok/out_osip_conv_Oct2018_200.root
+/cache/mss/home/skorodum/QUASI_EL_INCL/Osipenko_newgen_nofid16Feb2014/converted_Sept2018_cc_ok/out_osip_conv_Oct2018_201.root
+out_test.root // output file
+
+
+

@@ -1,0 +1,11 @@
+This is an event generator for quasi-elastic scattering off deuteron (QUEEG). See more details in CLAS12-Note-2014-007 (https://misportal.jlab.org/mis/physics/clas12/viewFile.cfm/2014-007.pdf?documentId=15). The note is located in this folder. 
+
+The source code is in WHATEVER/qeDsim/src
+To make it, one should firstly do "setenv TOP_DIR WHATEVER/qeDsim/" 
+An executable goes to WHATEVER/qeDsim/bin
+The executable runs from the command line. For options see CLAS12-Note-2014-007.
+
+This version was slightly modified comparing with the initial one in order:
+
+- to force it to compile
+- to add an option of producing a BOS ouput.

@@ -1,0 +1,65 @@
+#ifndef PDE_INCLUDES_H_
+#define PDE_INCLUDES_H_
+
+//headers needed by lots of different people
+
+//header files for ROOT classes
+#include <TROOT.h>
+#include <TF1.h>
+#include <TEnv.h>
+#include <TMinuit.h>
+#include <TMath.h>
+#include <TH1.h>
+#include <TH2.h>
+#include <TProfile.h>
+#include <TFile.h>
+#include <TTree.h>
+#include <TBranch.h>
+#include <TAxis.h>
+#include <TGraph.h>
+#include <TNtuple.h>
+
+//other necessary headers (CLAS packages and standard library)
+extern "C" {
+  #include <stdlib.h>
+  #include <stdio.h>
+  #include <signal.h>
+  #include <errno.h>
+  #include <ntypes.h>
+  #include <bostypes.h>
+  #include <bosfun.h>
+  #include <clas_cern.h>
+  #include <clasmdl.h>
+  #include <ctype.h>
+  #include <kinematics.h>
+  #include <map_manager.h>
+  #include <utility.h>
+  #include <particleType.h>
+  #include <trk.h>
+  #include <trk_run_control.h>
+  #include <call.h>  
+  //#include <dc_tcl.h> 
+  #include <pid.h>
+  #include <call.h>
+  #include <makebanks.h>
+  #include <trk_common.h>
+  #include <trklink.h>
+}
+
+// function declarations for external routines in libdc.a and libtrk.a
+extern "C" {
+  void dc_set_def_(void);
+  void trk_set_def_(void);
+  void trk_reg1_set_def_(void);
+  void trk_reg1_init_(void);
+  void trk_region1_(void);
+}
+
+#include <math.h>
+#include <iostream>
+#include <fstream>
+#include <string>
+#include <unistd.h>
+#include <vector>
+
+#endif

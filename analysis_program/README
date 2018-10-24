@@ -1,0 +1,27 @@
+This folder contains the analysis program for the extraction of quasi-elastic (and inclusive) cross section off deuteron. The program is similar to that for the double-pion analysis with the electron selection is only kept (which is the same as for the double-pion cross section extraction).
+
+-------------------------------------------
+
+The following files are used as an imput for the program:
+
+- for data /mss/home/skorodum/e1e/data_2pi_conv_2July2018/out_conv_2pi_2July2018_*.root (the same 284 files used for the double-pion analysis).
+- empty target /mss/home/skorodum/e1e/out_conv_empty_2pi_2July2018.root (the same as  for the double-pion analysis).
+- for the Monte Carlo simulation the files produced by the Osipenko event generator are used.
+
+	Without fiducial cuts (suitable for the cross section extraction):
+	 /mss/home/skorodum/QUASI_EL_INCL/Osipenko_newgen_nofid16Feb2014/converted_Sept2018_cc_ok/out_osip_conv_Oct2018_*.root
+	 
+	With fiducial cut:
+	 /mss/home/skorodum/QUASI_EL_INCL/Osipenko_newgen/converted_Sept2018_cc_ok/out_osip_conv_Sept2018_*.root
+	 
+All these files are after the converter (th_cc and ph_cc angles are calculated correctly).
+
+-------------------------------------------
+
+The program processes the above files, performs  the elelctron selection, then fills the histograms with the selected events. The output is the file with the histograms.
+
+----------------------------------------------
+
+For the program operation two external files are needed:
+- the file with the photoelecton correction: phel_integr_fract_12July18.txt
+- the files with the 2d ph_cc vs th_cc histograms for the geomentrical cut for the inefficiet zones removal: norm_nphe_5july18_aft_cc_match_gt50.root
