@@ -1,0 +1,21 @@
+This folder contains the scripts that were used used for testing the QE peak parameterizations (Bosted, Durand, Kocevar) via the comparison of the parameterized cross sections with published experimental data (Hanson, Rock). 
+
+See CLAS12-Note-2019-003 for more details. 
+
+Approximations of the peak cross section:
+Durand.C
+Kocevar.C
+
+Comparison with published data:
+hanson_bosted_comparison.C
+rock_bosted_comparison.C
+
+Integrate_data.C - for Hanson and Rock data determines the positions of the integration limits and then integrates the QE peak within these limits.
+
+free_proton.C - compares free proton elastic cross sections with Bosted parameterization. See details in the note.
+
+
+Scripts used to extract QE cross section for e1e dataset are also there.
+
+my_data_int.C
+quasiel_peak_new.C
